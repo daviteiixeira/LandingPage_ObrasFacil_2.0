@@ -1,0 +1,215 @@
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+
+
+header {
+
+    background-color: white;
+
+    border-bottom: 4px solid #ddd;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px 10px;
+
+}
+
+
+
+header #sigaConectado-header {
+
+    color: rgb(175, 175, 175);
+
+    font-size: 15px;
+
+    margin-top: 8px;
+    margin-right: 15px;
+
+    text-decoration: underline;
+
+}
+
+
+header .socialMedia-header {
+
+    display: flex;
+
+}
+
+header .socialMedia-header a {
+
+    width:  32px;
+    height: 32px;
+
+    float: right;
+
+    margin-left: 5px;
+
+}
+
+header .but_youtube {
+
+    background-image: url(../imagens/social_media_icons/yt.png);
+
+}
+
+header .but_youtube:hover {
+
+    background-image: url(../imagens/social_media_icons/youtube-hover.png);
+
+}
+
+header .but_instagram {
+
+    background-image: url(../imagens/social_media_icons/instagram.png);
+
+}
+
+header .but_instagram:hover {
+
+    background-image: url(../imagens/social_media_icons/instagram-hover.png);
+
+}
+
+header .but_twitter {
+
+    background-image: url(../imagens/social_media_icons/twitter.png);
+
+}
+
+header .but_twitter:hover {
+
+    background-image: url(../imagens/social_media_icons/twitter-hover.png);
+
+}
+
+
+
+
+main {
+
+    background-color: #e6e6e6;
+
+}
+
+
+
+
+main .contrainer {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+main .video-area, .form-area {
+
+    margin-top: 50px;
+    margin-bottom: 55px;
+
+}
+
+main .video-area {
+
+    margin-left: 240px;
+    margin-right: 50px;
+
+}
+
+main iframe {
+
+    width: 470px;
+    height: 270px;
+
+    border: 5px solid #ddd;
+    border-radius: 5px;
+
+}
+
+
+main .form-area {
+
+    margin-right: 245px;
+
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 4px;
+
+    padding: 15px;
+
+}
+
+main .subtitle-form-area {
+
+    margin-top: 5px;
+    margin-bottom: 17px;
+
+    font-size: 17px;
+
+    line-height: 20px;
+
+}
+
+main form {
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+main input {
+
+    height: 44px;
+    background-color: #ddd;
+    border: 2px solid #d4d4d4;
+
+    padding-left: 7px;
+    font-size: 16px;
+
+}
+
+main button {
+
+    background-color: green;
+    height: 44px;
+
+    color: white;
+    font-size: 17px;
+
+    cursor: pointer;
+
+}
+
+
+
+
+footer {
+
+    background-color: #e6e6e6;
+
+    border-bottom: 4px solid #ddd;
+
+    text-align: center;
+
+}
+
+
+
+footer span {
+
+    text-decoration: underline;
+
+}

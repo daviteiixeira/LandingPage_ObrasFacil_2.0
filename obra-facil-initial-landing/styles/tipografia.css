@@ -1,0 +1,28 @@
+
+* {
+
+    font-family: "Open Sans", "Sans-Serif";
+
+}
+
+
+
+
+h2 {
+
+    color: black;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 34px;
+
+}
+
+
+p {
+
+    color: gray;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 34px;
+
+}
